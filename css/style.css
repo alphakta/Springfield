@@ -1,0 +1,264 @@
+
+@font-face
+{
+    font-family: "Sugarpunch";
+    src: local("SugarpunchDEMO"),
+         url("../font/SugarpunchDEMO.otf") format("opentype");
+		 
+}
+
+@font-face {
+                 font-family: "Homer_Simpson_Revised";
+    src: local("Homer_Simpson_Revised"),
+         url("../font/Homer_Simpson_Revised.ttf") format("truetype");
+}
+
+h1 {
+		font-size: 350%;
+		font-family: Sugarpunch;
+		text-align: left;
+  text-shadow: 0    0   2px #fefcc9,
+               1px -1px 3px #feec85,
+              -2px -2px 4px #ffae34,
+               2px -4px 5px #ec760c,
+              -2px -6px 6px #cd4606,
+               0   -8px 7px #973716,
+               1px -9px 8px #451b0e;
+               text-align: center;
+
+}
+
+
+
+h2 {
+     font-size: 80px;
+     font-family: Sugarpunch;
+	text-shadow: 0    0   2px #fefcc9,
+     1px -1px 3px #feec85,
+     -2px -2px 4px #ffae34,
+     2px -4px 5px #ec760c,
+     -2px -6px 5px #cd4606,
+     0   -8px 5px #973716,
+     1px -9px 5px #451b0e;
+	margin-left: 25px;
+	text-align: center;
+}
+
+h3 {
+	font-size:45px;
+	font-family: Sugarpunch;
+	text-shadow: 0    0   2px #fefcc9,
+     1px -1px 3px #feec85,
+     -2px -2px 4px #ffae34,
+     2px -4px 5px #ec760c,
+     -2px -6px 5px #cd4606,
+      0   -8px 5px #973716,
+     1px -9px 5px #451b0e;
+	margin-left: 70px;
+     text-align: center;
+}
+
+
+body
+{
+     position: relative;
+     margin:0;
+     padding:0;
+     background: url(../img/fond.jpg) no-repeat center fixed; 
+     background-size: cover; 
+     min-height: 100%;
+
+}
+
+
+p {
+  color: black;	
+}
+
+.image1{
+	
+	margin-left: 70px;
+	float: left;
+	margin-right: 25px;
+}
+
+section{
+     background-color: khaki;
+     border: 2mm ridge rgb(123, 96, 20);
+     border-radius: 50px;
+     margin-left: 8%;
+     margin-right: 8%;
+     margin-bottom: 2%;
+}
+
+section p {
+     min-width:250px;
+     margin-bottom:50px;
+     margin-top:15px;
+     font-family:Homer_Simpson_Revised;
+     font-size: 150%;
+     margin-bottom : 3cm;
+     margin-top: 1cm;
+}
+
+footer{
+     background-color: khaki;
+     bottom:0;
+     width:100%;
+     height:50px;
+     margin-top: 8%;
+     }
+
+     footer p {
+          color: black;	
+          font-family:Homer_Simpson_Revised;
+          font-size: 140%;
+          text-align: center;
+          padding-top: 1%;
+     }
+#formulaire{
+     margin-top: 15%;
+}
+
+#secAccueil{
+     margin: 10px;
+     margin-top: 10%;
+}
+#secAccueil p {
+     padding-top: 10%;
+     padding-bottom: 7%;
+     margin-left: 3%;
+     margin-right: 3%;
+     font-size: auto;
+
+}
+#secAccueil span {
+     text-decoration: underline;
+}
+
+#formulaire p {
+
+          color: black;	
+          min-width:250px;
+          margin-bottom:50px;
+          margin-top:15px;
+          font-family:Homer_Simpson_Revised;
+          font-size: 170%;
+          margin-top: 1cm;
+        margin-left: 5%;
+}
+
+#formulaire form {
+   margin-left: 15%;
+   padding-bottom: 5%;
+   padding-top: 2%;
+}
+.sectionPrincipale{
+     height: auto;
+     width: auto;
+     margin-top: 8%;
+     border-radius: 50px;
+     margin-left: 25%;
+     margin-right: 25%;
+}
+
+.sous-titre_2{
+   margin-left:15px;
+}
+
+/* MENU DE NAVIGATION */
+
+nav > ul
+ {
+  margin: 0px;
+  padding: 0px;
+ }
+
+ nav > ul > li
+ {
+  float: left;
+  position: relative;
+ }
+
+ nav li
+ {
+  list-style-type: none;
+ }
+
+.Sous-Menu
+{
+ display: none;
+}
+
+nav li:hover .Sous-Menu
+{
+ display: inline-block;
+ position: absolute;
+ top: 100%;
+ left: 0px;
+ padding: 0px;
+ z-index: 1000;
+}
+
+nav
+{
+position: fixed;
+ width: 100%;
+background-color: rgb(218, 165, 32);
+ top: 5px;
+ font-family: Homer_Simpson_Revised;
+ font-size: 25px;
+ border: solid;
+
+}
+
+nav > ul::after
+{
+ content: "";
+ display: block;
+ clear: both;
+}
+
+nav a
+{
+ display: inline-block;
+ text-decoration: none;
+}
+
+nav > ul > li > a
+{
+ padding: 20px 30px;
+ color: white;
+}
+
+.Sous-Menu li
+{
+ border-bottom: 1px solid #ccc;
+}
+
+.Sous-Menu li a
+{
+ padding: 15px 30px;
+ font-size: 20px;
+ color: black;
+ width: 270px;
+ background-color: rgba(240,	230,	140, 0.7);
+} 
+.menu-1:hover {
+	border-top: 5px solid #e44d26;
+	background-color: rgba(117, 190, 218, 0.5);
+}
+.menu-1 .Sous-Menu
+{
+	background-color: rgba(117, 190, 218, 0.5);
+}
+.Sous-Menu li:hover above 
+{ 
+color: #EEE;
+font-weight: bold;
+}
+.menu-1 .Sous-Menu li:hover
+{
+	background-color: rgba(117, 190, 218, 0.5);
+}
+
